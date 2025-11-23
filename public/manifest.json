@@ -1,0 +1,27 @@
+{
+  "name": "Mermeladas Sin Azúcar",
+  "short_name": "Mermeladas",
+  "description": "Recetario interactivo de 40 mermeladas y compotas sin azúcar refinada",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF6ED",
+  "theme_color": "#C7744B",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["food", "lifestyle", "utilities"],
+  "lang": "es",
+  "dir": "ltr"
+}
