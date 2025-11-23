@@ -418,7 +418,7 @@ export const recipes: Recipe[] = [
   // BLOQUE 3 – Mermeladas funcionales y sin fructosa
   {
     id: "funcionales-1",
-    title: "Mermelada de fresa con stevia",
+    title: "Mermelada de fresa con Stevia",
     category: "funcionales",
     ingredients: [
       "Fresas frescas: 400 g",
@@ -486,7 +486,7 @@ export const recipes: Recipe[] = [
   },
   {
     id: "funcionales-5",
-    title: "Mermelada de calabaza y naranja (sin fruta ácida)",
+    title: "Mermelada de calabaza y naranja",
     category: "funcionales",
     ingredients: [
       "Puré de calabaza cocida: 300 g",
@@ -496,10 +496,10 @@ export const recipes: Recipe[] = [
     ],
     instructions: [
       "Mezcla todos los ingredientes en una olla.",
-      "Cocina a fuego medio 15 minutos.",
+      "Cocina a fuego medio 15 minutos removiendo.",
       "Deja enfriar y guarda en frascos."
     ],
-    tips: "Perfecta para acompañar panes de semillas o tostadas integrales."
+    tips: "Aromática, de textura cremosa y sin frutas ácidas fuertes."
   },
   {
     id: "funcionales-6",
@@ -532,10 +532,10 @@ export const recipes: Recipe[] = [
     ],
     instructions: [
       "Cocina las ciruelas con el agua y el limón 15 minutos.",
-      "Añade la linaza y el endulzante.",
+      "Añade la linaza y el eritritol.",
       "Cocina 10 minutos más hasta espesar."
     ],
-    tips: "Rica en fibra y perfecta para el sistema digestivo."
+    tips: "Fibra natural y dulzor suave."
   },
   {
     id: "funcionales-8",
@@ -573,7 +573,7 @@ export const recipes: Recipe[] = [
   },
   {
     id: "funcionales-10",
-    title: "Mermelada mixta antioxidante (arándanos + uva + moras)",
+    title: "Mermelada antioxidante (arándanos + uvas + moras)",
     category: "funcionales",
     ingredients: [
       "Arándanos: 150 g",
