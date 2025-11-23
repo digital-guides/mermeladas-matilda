@@ -12,6 +12,7 @@ export interface Category {
   title: string;
   description: string;
   icon: string;
+  image: string;
 }
 
 export const categories: Category[] = [
@@ -19,25 +20,29 @@ export const categories: Category[] = [
     id: "clasicas",
     title: "Mermeladas clásicas y caseras",
     description: "Sabores tradicionales en versiones naturales, dulces y sin azúcar refinada",
-    icon: "🍓"
+    icon: "🍓",
+    image: "/src/assets/bloque-clasicas.jpg"
   },
   {
     id: "tropicales",
     title: "Compotas ligeras y de frutas tropicales",
     description: "Texturas suaves, sabores exóticos y endulzantes naturales",
-    icon: "🥭"
+    icon: "🥭",
+    image: "/src/assets/bloque-tropicales.jpg"
   },
   {
     id: "funcionales",
     title: "Mermeladas funcionales y sin fructosa",
     description: "Diseñadas para quienes buscan controlar su glucemia o reducir azúcares simples",
-    icon: "🫐"
+    icon: "🫐",
+    image: "/src/assets/bloque-funcionales.jpg"
   },
   {
     id: "gourmet",
     title: "Untables y conservas gourmet",
     description: "Para acompañar quesos, panes o postres. Sabores intensos y sofisticados",
-    icon: "🍯"
+    icon: "🍯",
+    image: "/src/assets/bloque-gourmet.jpg"
   }
 ];
 
