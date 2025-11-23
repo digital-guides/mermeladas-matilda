@@ -247,11 +247,12 @@ export const recipes: Recipe[] = [
       "Jugo de limón: 1 cucharadita"
     ],
     instructions: [
-      "Coloca ambas pulpas en una olla y cocina a fuego medio durante 10 minutos.",
-      "Añade el endulzante y el limón, mezcla bien y cocina 5 minutos más.",
+      "Coloca ambas pulpas en una olla y cocina a fuego medio 8–10 minutos. Debe comenzar a burbujear y tomar cuerpo.",
+      "Añade el endulzante y el jugo de limón, mezcla bien.",
+      "Cocina 5 minutos más hasta que espese ligeramente.",
       "Enfría y guarda en frascos limpios."
     ],
-    tips: "Ideal para acompañar yogur o panes de coco."
+    tips: "Si quieres una textura súper lisa, licúa 5 segundos antes de guardar."
   },
   {
     id: "tropicales-2",
@@ -264,12 +265,12 @@ export const recipes: Recipe[] = [
       "Stevia o eritritol: 3 cucharadas"
     ],
     instructions: [
-      "Cocina las guayabas con el agua hasta ablandar.",
-      "Cuela la mezcla para retirar semillas.",
-      "Regresa al fuego, añade el endulzante y el limón.",
-      "Cocina 10–15 minutos más."
+      "Cocina las guayabas con el agua 10–12 minutos hasta ablandar.",
+      "Cuela para retirar semillas y obtener textura fina.",
+      "Regresa la mezcla a la olla, añade endulzante y jugo de limón.",
+      "Cocina 10–15 minutos más hasta espesar y tomar color rosado profundo."
     ],
-    tips: "Añade una pizca de canela para un toque cálido."
+    tips: "Una pizca de canela realza el aroma y combina perfecto con guayaba."
   },
   {
     id: "tropicales-3",
@@ -281,11 +282,12 @@ export const recipes: Recipe[] = [
       "Miel o eritritol: 2 cucharadas"
     ],
     instructions: [
-      "Cocina todos los ingredientes a fuego medio durante 20 minutos.",
+      "Coloca la papaya con el limón en una olla y cocina 15–18 minutos.",
       "Tritura ligeramente si deseas una textura más uniforme.",
-      "Enfría y guarda en frascos herméticos."
+      "Cocina 5 minutos más para que reduzca.",
+      "Enfría y guarda."
     ],
-    tips: "Perfecta para acompañar pancakes o waffles sin gluten."
+    tips: "Perfecta como topping de pancakes o waffles sin gluten."
   },
   {
     id: "tropicales-4",
@@ -298,11 +300,12 @@ export const recipes: Recipe[] = [
       "Jugo de limón: 1 cucharadita"
     ],
     instructions: [
-      "Cocina la piña con el limón por 10 minutos.",
+      "Cocina la piña con el limón 10 minutos.",
       "Añade la leche de coco y el endulzante.",
-      "Cocina a fuego bajo hasta que espese ligeramente."
+      "Cocina 8–10 minutos hasta obtener textura cremosa.",
+      "Deja enfriar antes de guardar."
     ],
-    tips: "Sirve fría como topping sobre yogur o helado natural."
+    tips: "Increíble sobre yogur frío o helado natural."
   },
   {
     id: "tropicales-5",
@@ -315,11 +318,12 @@ export const recipes: Recipe[] = [
       "Leche vegetal: 50 ml"
     ],
     instructions: [
-      "Tritura los plátanos y colócalos en una sartén con el resto de ingredientes.",
-      "Cocina a fuego bajo durante 10 minutos.",
-      "Guarda en frascos una vez fría."
+      "Tritura los plátanos y colócalos en una sartén junto al resto de ingredientes.",
+      "Cocina a fuego bajo 8–10 minutos, mezclando siempre.",
+      "Debe quedar espesa y brillante.",
+      "Enfría y guarda."
     ],
-    tips: "Agrega una pizca de canela o mantequilla de maní para una versión energética."
+    tips: "Agrega una pizca de canela o 1 cucharadita de mantequilla de maní para una versión más energética."
   },
   {
     id: "tropicales-6",
@@ -332,11 +336,12 @@ export const recipes: Recipe[] = [
       "Jugo de limón: 1 cucharadita"
     ],
     instructions: [
-      "Corta las frutas y cocina con el limón 15 minutos.",
-      "Añade el endulzante y cocina 5 minutos más.",
-      "Guarda en frascos esterilizados."
+      "Corta las frutas y colócalas en una olla con el limón.",
+      "Cocina 12–15 minutos hasta que ablanden.",
+      "Añade endulzante y cocina 5 minutos más.",
+      "Guarda en frascos limpios."
     ],
-    tips: "Ideal para acompañar panes integrales o yogur vegetal."
+    tips: "Ideal para desayunos ligeros con yogur vegetal."
   },
   {
     id: "tropicales-7",
@@ -349,15 +354,15 @@ export const recipes: Recipe[] = [
       "Jugo de limón: 1 cucharadita"
     ],
     instructions: [
-      "Cocina el melón con el jengibre y el limón 10 minutos.",
-      "Agrega el endulzante y mezcla.",
+      "Cocina el melón con el jengibre y limón 10–12 minutos.",
+      "Añade el endulzante y mezcla.",
       "Cocina 5 minutos más y enfría."
     ],
-    tips: "Excelente para acompañar bizcochuelos o yogures fríos."
+    tips: "Queda espectacular sobre bizcochuelos o helados fríos."
   },
   {
     id: "tropicales-8",
-    title: "Compota de frutos amarillos (durazno + mango + piña)",
+    title: "Compota de frutos amarillos",
     category: "tropicales",
     ingredients: [
       "Durazno, mango y piña: 150 g de cada uno",
@@ -365,11 +370,12 @@ export const recipes: Recipe[] = [
       "Miel o eritritol: 3 cucharadas"
     ],
     instructions: [
-      "Cocina todas las frutas con el jugo de limón 20 minutos.",
-      "Añade el endulzante y mezcla.",
-      "Deja enfriar y guarda."
+      "Cocina todas las frutas con el limón 15–20 minutos.",
+      "Cuando estén muy tiernas, agrega el endulzante.",
+      "Cocina 5 minutos más hasta espesar.",
+      "Enfría y guarda."
     ],
-    tips: "Sirve con queso vegetal o yogur helado."
+    tips: "Es deliciosa con yogur helado o como relleno de tartas frescas."
   },
   {
     id: "tropicales-9",
@@ -382,11 +388,12 @@ export const recipes: Recipe[] = [
       "Eritritol o miel: 3 cucharadas"
     ],
     instructions: [
-      "Cocina las ciruelas con el agua y la canela 15 minutos.",
-      "Agrega el endulzante y cocina hasta espesar.",
-      "Enfría antes de guardar."
+      "Cocina las ciruelas con el agua y la canela 12–15 minutos.",
+      "Añade el endulzante.",
+      "Cocina 8 minutos más hasta que espese y tome color intenso.",
+      "Deja enfriar."
     ],
-    tips: "Perfecta para acompañar panes o postres con avena."
+    tips: "Ideal para acompañar panes integrales o postres con avena."
   },
   {
     id: "tropicales-10",
@@ -400,11 +407,12 @@ export const recipes: Recipe[] = [
       "Miel o eritritol: 2 cucharadas"
     ],
     instructions: [
-      "Cocina las frutas durante 10–15 minutos.",
-      "Añade el endulzante y las semillas de chía.",
-      "Mezcla y deja reposar hasta que espese."
+      "Cocina las frutas 10–12 minutos hasta que ablanden.",
+      "Añade el endulzante y mezcla.",
+      "Incorpora la chía, mezcla y deja reposar 10 minutos para espesar.",
+      "Guarda una vez fría."
     ],
-    tips: "Ideal para desayunos; úsala sobre tostadas o bowls de avena."
+    tips: "Perfecta para desayunos, sobre tostadas o bowls de avena fría."
   },
 
   // BLOQUE 3 – Mermeladas funcionales y sin fructosa
