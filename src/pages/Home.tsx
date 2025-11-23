@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { categories } from "@/data/recipes";
 import { SearchBar } from "@/components/SearchBar";
+import logo from "@/assets/logo.png";
 import bloqueClasicas from "@/assets/bloque-clasicas.jpg";
 import bloqueTropicales from "@/assets/bloque-tropicales.jpg";
 import bloqueFuncionales from "@/assets/bloque-funcionales.jpg";
@@ -12,9 +13,12 @@ const Home = () => {
       {/* Header */}
       <header className="bg-card border-b border-border py-6 px-4 sticky top-0 z-30 backdrop-blur-sm bg-card/95">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-3xl md:text-4xl font-bold text-primary text-center mb-2">
-            Mermeladas Sin Azúcar
-          </h1>
+          <div className="flex items-center justify-center gap-3 mb-2">
+            <img src={logo} alt="Logo" className="h-12 md:h-16 w-auto" />
+            <h1 className="text-3xl md:text-4xl font-bold text-primary">
+              Mermeladas Sin Azúcar
+            </h1>
+          </div>
           <p className="text-sm md:text-base text-muted-foreground text-center mb-6">
             El arte de conservar el sabor natural de las frutas, sin culpa y con dulzura consciente
           </p>
