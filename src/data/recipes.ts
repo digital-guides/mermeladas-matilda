@@ -55,17 +55,19 @@ export const recipes: Recipe[] = [
     ingredients: [
       "Fresas frescas: 500 g",
       "Jugo de limón: 2 cucharadas",
-      "Eritritol o stevia: 3 cucharadas (ajustar al gusto)",
-      "Semillas de chía: 1 cucharada (opcional, para espesar)"
+      "Eritritol o stevia: 2–3 cucharadas (ajustar al gusto)",
+      "Semillas de chía: 1 cucharada (opcional para espesar)"
     ],
     instructions: [
-      "Lava y corta las fresas.",
-      "Cocínalas a fuego medio con el jugo de limón por 15 minutos.",
-      "Añade el endulzante y cocina 10 minutos más hasta que espese.",
-      "Si deseas textura tipo \"mermelada firme\", agrega las semillas de chía y mezcla.",
-      "Deja enfriar y guarda en frascos esterilizados."
+      "Lava y corta las fresas en trozos pequeños para que liberen más jugo.",
+      "Colócalas en una olla con el jugo de limón.",
+      "Cocina a fuego medio 12–15 minutos, removiendo para evitar que se peguen.",
+      "Cuando las fresas estén blandas y comiencen a deshacerse, agrega el endulzante.",
+      "Cocina 8–10 minutos más hasta que reduzca y tome textura espesa.",
+      "Si deseas una consistencia más firme y sin azúcar añadida, mezcla las semillas de chía y deja reposar 10 minutos.",
+      "Enfría y guarda en frascos esterilizados."
     ],
-    tips: "Si prefieres una textura más lisa, licúa brevemente antes de enfriar."
+    tips: "Si quieres mermelada extra suave, licúa 3 segundos antes de enfriar (no más, o quedará muy líquida)."
   },
   {
     id: "clasicas-2",
@@ -78,11 +80,13 @@ export const recipes: Recipe[] = [
       "Agua: 50 ml"
     ],
     instructions: [
-      "Cocina los duraznos con el agua y el jugo de limón por 20 minutos.",
-      "Añade el endulzante y sigue cocinando hasta que espese.",
-      "Retira del fuego, deja enfriar y guarda en frascos herméticos."
+      "Coloca los duraznos en una olla con el agua y el jugo de limón.",
+      "Cocina a fuego medio 15–20 minutos hasta que los trozos estén muy blandos.",
+      "Añade el endulzante y continúa cocinando 10 minutos más.",
+      "Tritura ligeramente si deseas una textura más cremosa.",
+      "Cuando la mezcla reduzca y se vea brillante, retira y enfría."
     ],
-    tips: "Para un sabor gourmet, agrega una pizca de vainilla o canela."
+    tips: "Una pizca de vainilla o canela transforma esta receta en un sabor \"tipo postre\"."
   },
   {
     id: "clasicas-3",
@@ -95,12 +99,13 @@ export const recipes: Recipe[] = [
       "Esencia natural de vainilla: ½ cucharadita"
     ],
     instructions: [
-      "Cocina las frambuesas a fuego medio con el jugo de limón.",
-      "Añade el endulzante y cocina 10 minutos más.",
-      "Incorpora la vainilla y mezcla.",
-      "Guarda en frascos de vidrio limpios."
+      "Cocina las frambuesas con el jugo de limón 10 minutos.",
+      "Añade el endulzante y mezcla.",
+      "Cocina 5–8 minutos más hasta que espese ligeramente.",
+      "Incorpora la vainilla fuera del fuego para conservar su aroma.",
+      "Guarda en frascos limpios."
     ],
-    tips: "Para un toque especial, mezcla con unas gotas de agua de rosas o ralladura de naranja."
+    tips: "Unas gotas de agua de rosas o ralladura de naranja realzan muchísimo el sabor."
   },
   {
     id: "clasicas-4",
@@ -110,15 +115,16 @@ export const recipes: Recipe[] = [
       "Manzanas peladas y picadas: 500 g",
       "Agua: 100 ml",
       "Jugo de limón: 1 cucharada",
-      "Canela: 1 cucharadita",
+      "Canela en polvo: 1 cucharadita",
       "Miel o eritritol: 3 cucharadas"
     ],
     instructions: [
-      "Cocina las manzanas con el agua y el jugo de limón hasta ablandar.",
-      "Añade la canela y el endulzante.",
-      "Tritura ligeramente y cocina hasta obtener textura de compota espesa."
+      "Cocina las manzanas con el agua y limón 10–12 minutos.",
+      "Cuando estén tiernas, agrega canela y endulzante.",
+      "Tritura parcialmente para lograr textura de compota espesa.",
+      "Cocina 5 minutos más para que tome brillo y cuerpo."
     ],
-    tips: "Si deseas una textura brillante, agrega ½ cucharadita de agar-agar disuelto al final de la cocción."
+    tips: "Si la quieres muy firme, agrega ½ cucharadita de agar-agar disuelto al final y mezcla 1 minuto."
   },
   {
     id: "clasicas-5",
@@ -131,11 +137,12 @@ export const recipes: Recipe[] = [
       "Agua: 50 ml"
     ],
     instructions: [
-      "Cocina las moras con el agua y el limón 15 minutos.",
-      "Agrega el endulzante y cocina 10 minutos más.",
-      "Tritura si deseas textura más fina."
+      "Cocina las moras con el agua y limón 12–15 minutos.",
+      "Cuando suelten jugo y ablanden, añade el endulzante.",
+      "Cocina 10 minutos más hasta obtener textura espesa.",
+      "Licúa ligeramente si prefieres una textura más lisa."
     ],
-    tips: "Para un toque gourmet, añade unas hojas de menta o romero fresco al final."
+    tips: "Unas hojas de menta o romero fresco al final dan un toque gourmet aromático."
   },
   {
     id: "clasicas-6",
@@ -148,43 +155,47 @@ export const recipes: Recipe[] = [
       "Agua: 30 ml"
     ],
     instructions: [
-      "Cocina los higos con el agua y el jugo de limón por 20 minutos.",
-      "Añade la miel y cocina 10 minutos más a fuego bajo.",
+      "Cocina los higos con el agua y limón 15–20 minutos.",
+      "Añade la miel y remueve.",
+      "Cocina a fuego bajo otros 10 minutos hasta que tome brillo y cuerpo.",
       "Guarda caliente en frascos esterilizados."
     ],
-    tips: "Ideal para acompañar quesos o panes integrales."
+    tips: "Agrégale canela o vainilla para una versión más cálida y elegante."
   },
   {
     id: "clasicas-7",
     title: "Mermelada de piña y jengibre",
     category: "clasicas",
     ingredients: [
-      "Piña fresca en trozos: 500 g",
+      "Piña fresca troceada: 500 g",
       "Jugo de limón: 1 cucharada",
       "Jengibre rallado: ½ cucharadita",
       "Eritritol o miel: 3 cucharadas"
     ],
     instructions: [
-      "Cocina la piña con el jugo de limón 15–20 minutos.",
-      "Añade el jengibre y el endulzante.",
-      "Cocina 10 minutos más hasta espesar."
+      "Cocina la piña con el limón 12–15 minutos.",
+      "Añade jengibre y endulzante.",
+      "Cocina 8–10 minutos más hasta espesar.",
+      "Enfría y guarda."
     ],
-    tips: "Para una versión gourmet, añade ralladura de lima al final de la cocción."
+    tips: "La ralladura de lima al final intensifica su frescura."
   },
   {
     id: "clasicas-8",
     title: "Mermelada de frutos rojos mixtos",
     category: "clasicas",
     ingredients: [
-      "Fresas, moras y frambuesas: 500 g en total",
+      "Fresas, moras y frambuesas: 500 g total",
       "Jugo de limón: 1 cucharada",
       "Eritritol o miel: 3 cucharadas"
     ],
     instructions: [
-      "Cocina todas las frutas con el jugo de limón durante 20 minutos.",
-      "Agrega el endulzante y sigue cocinando hasta obtener consistencia de mermelada."
+      "Cocina todas las frutas juntas 15–20 minutos.",
+      "Agrega el endulzante y mezcla.",
+      "Cocina 8 minutos más hasta espesar.",
+      "Si deseas textura con trozos, separa un poco de fruta antes de licuar y reincorpórala después."
     ],
-    tips: "Si quieres conservar trozos, retira una parte de fruta antes de licuar y reincorpórala al final."
+    tips: "Perfecta para rellenar tartas o usar como topping de yogur."
   },
   {
     id: "clasicas-9",
@@ -198,11 +209,12 @@ export const recipes: Recipe[] = [
       "Semillas de anís: ¼ cucharadita"
     ],
     instructions: [
-      "Cocina las peras con el agua y el limón 15 minutos.",
-      "Agrega el anís y el endulzante.",
-      "Cocina 10 minutos más hasta obtener textura espesa."
+      "Cocina las peras con el agua y limón 10–12 minutos.",
+      "Añade el anís y el endulzante.",
+      "Cocina 10 minutos más hasta espesar.",
+      "Enfría y guarda."
     ],
-    tips: "Ideal para acompañar bizcochuelos o yogures naturales."
+    tips: "Ideal con yogur natural, bizcochuelos o pan casero tibio."
   },
   {
     id: "clasicas-10",
@@ -215,11 +227,12 @@ export const recipes: Recipe[] = [
       "Pizca de sal marina"
     ],
     instructions: [
-      "Cocina las cerezas con el jugo de naranja 20 minutos.",
-      "Agrega el endulzante, la ralladura y la sal.",
-      "Cocina 10 minutos más hasta que tome cuerpo."
+      "Cocina las cerezas con el jugo de naranja 15–20 minutos.",
+      "Añade el endulzante, la ralladura y la sal.",
+      "Cocina 10 minutos más hasta que reduzca.",
+      "Enfría antes de guardar."
     ],
-    tips: "Añade unas gotas de extracto de almendra para realzar el sabor."
+    tips: "Unas gotas de extracto de almendra multiplican el sabor de la cereza."
   },
 
   // BLOQUE 2 – Compotas ligeras y de frutas tropicales
