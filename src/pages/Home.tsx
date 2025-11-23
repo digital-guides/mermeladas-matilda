@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 import { categories } from "@/data/recipes";
 import { SearchBar } from "@/components/SearchBar";
+import bloqueClasicas from "@/assets/bloque-clasicas.jpg";
+import bloqueTropicales from "@/assets/bloque-tropicales.jpg";
+import bloqueFuncionales from "@/assets/bloque-funcionales.jpg";
+import bloqueGourmet from "@/assets/bloque-gourmet.jpg";
 
 const Home = () => {
   return (
@@ -22,32 +26,49 @@ const Home = () => {
       <main className="max-w-6xl mx-auto px-4 py-8 md:py-12">
         {/* Grid 2x2 de categorías */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
-          {categories.map((category) => (
-            <Link
-              key={category.id}
-              to={`/categoria/${category.id}`}
-              className="group"
-            >
-              <div className="bg-card rounded-3xl overflow-hidden border-2 border-border hover:border-primary transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
-                {/* Icono grande */}
-                <div className="bg-secondary/50 aspect-square flex items-center justify-center">
-                  <span className="text-8xl md:text-9xl group-hover:scale-110 transition-transform duration-300">
-                    {category.icon}
-                  </span>
-                </div>
+          {categories.map((category) => {
+            const imageMap: Record<string, string> = {
+              clasicas: bloqueClasicas,
+              tropicales: bloqueTropicales,
+              funcionales: bloqueFuncionales,
+              gourmet: bloqueGourmet
+            };
+            
+            return (
+              <Link
+                key={category.id}
+                to={`/categoria/${category.id}`}
+                className="group"
+              >
+                <div className="bg-card rounded-3xl overflow-hidden border-2 border-border hover:border-primary transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                  {/* Imagen de la categoría */}
+                  <div className="aspect-square overflow-hidden relative">
+                    <img 
+                      src={imageMap[category.id]} 
+                      alt={category.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+                    <div className="absolute bottom-4 left-4 right-4">
+                      <span className="text-5xl md:text-6xl drop-shadow-lg">
+                        {category.icon}
+                      </span>
+                    </div>
+                  </div>
 
-                {/* Contenido */}
-                <div className="p-6">
-                  <h2 className="text-xl md:text-2xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
-                    {category.title}
-                  </h2>
-                  <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-                    {category.description}
-                  </p>
+                  {/* Contenido */}
+                  <div className="p-6">
+                    <h2 className="text-xl md:text-2xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
+                      {category.title}
+                    </h2>
+                    <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
+                      {category.description}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </Link>
-          ))}
+              </Link>
+            );
+          })}
         </div>
       </main>
 
