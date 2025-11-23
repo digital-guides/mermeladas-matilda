@@ -596,55 +596,58 @@ export const recipes: Recipe[] = [
     title: "Chutney de mango y jengibre",
     category: "gourmet",
     ingredients: [
-      "Mango maduro picado: 400 g",
-      "Cebolla morada: ½ unidad",
-      "Jengibre fresco rallado: ½ cucharadita",
+      "Mango maduro en cubos: 400 g",
+      "Jengibre rallado: ½ cucharadita",
       "Vinagre de manzana: 2 cucharadas",
-      "Eritritol o miel: 1 cucharada",
-      "Sal marina: 1 pizca"
+      "Cebolla picada: ¼ unidad",
+      "Eritritol o miel: 1–2 cucharadas",
+      "Sal: 1 pizca"
     ],
     instructions: [
-      "Sofríe la cebolla y el jengibre en una cucharadita de aceite.",
-      "Añade el mango, el vinagre y el endulzante.",
-      "Cocina 20 minutos a fuego bajo hasta que tome textura espesa."
+      "Sofríe la cebolla 2–3 minutos hasta volverla transparente.",
+      "Agrega el mango, el jengibre, el vinagre y el endulzante.",
+      "Cocina 15–20 minutos a fuego medio, mezclando ocasionalmente.",
+      "Cuando esté espeso y brillante, retira del fuego y enfría."
     ],
-    tips: "Ideal para acompañar carnes blancas, quesos vegetales o panes salados."
+    tips: "Un toque de cúrcuma o curry suave lo convierte en un chutney aún más aromático."
   },
   {
     id: "gourmet-2",
     title: "Mermelada de cebolla caramelizada sin azúcar",
     category: "gourmet",
     ingredients: [
-      "Cebollas moradas en juliana: 500 g",
+      "Cebolla morada en tiras: 2 unidades",
       "Aceite de oliva: 1 cucharada",
+      "Eritritol o miel: 1–2 cucharadas",
       "Vinagre balsámico: 1 cucharada",
-      "Eritritol o miel: 1 cucharada",
-      "Sal marina: 1 pizca"
+      "Sal y pimienta: al gusto"
     ],
     instructions: [
-      "Cocina las cebollas en el aceite a fuego bajo durante 30 minutos.",
-      "Añade el vinagre y el endulzante, mezcla y cocina 10 minutos más.",
-      "Guarda en frascos esterilizados."
+      "Saltea la cebolla con el aceite a fuego medio 8–10 minutos.",
+      "Cuando esté dorada, agrega el endulzante y mezcla.",
+      "Cocina 5 minutos más hasta caramelizar.",
+      "Añade el vinagre balsámico y cocina 2 minutos extra."
     ],
-    tips: "Perfecta para sándwiches, hamburguesas o tablas de quesos."
+    tips: "Si la quieres más \"marmelada\", licúa solo 2 segundos para espesar sin perder textura."
   },
   {
     id: "gourmet-3",
     title: "Mermelada de tomate especiada",
     category: "gourmet",
     ingredients: [
-      "Tomates maduros pelados: 500 g",
+      "Tomates maduros pelados y picados: 500 g",
       "Jugo de limón: 1 cucharada",
       "Eritritol o miel: 2 cucharadas",
       "Clavo de olor molido: 1 pizca",
       "Pimienta negra: al gusto"
     ],
     instructions: [
-      "Cocina los tomates con el limón hasta reducir.",
-      "Agrega el endulzante y las especias.",
-      "Cocina 10 minutos más y guarda."
+      "Cocina los tomates con el jugo de limón 15–20 minutos hasta reducir.",
+      "Añade el endulzante y las especias.",
+      "Cocina 8–10 minutos más hasta espesar.",
+      "Guarda en frascos esterilizados."
     ],
-    tips: "Va increíble con pan de masa madre, quesos suaves o carnes frías."
+    tips: "Marida increíble con quesos suaves, tostadas o carnes frías."
   },
   {
     id: "gourmet-4",
@@ -653,15 +656,15 @@ export const recipes: Recipe[] = [
     ingredients: [
       "Zanahorias ralladas finas: 300 g",
       "Jugo y ralladura de 1 naranja",
-      "Miel o eritritol: 2 cucharadas",
+      "Eritritol o miel: 2 cucharadas",
       "Agua: 50 ml"
     ],
     instructions: [
-      "Cocina todos los ingredientes a fuego medio por 20 minutos.",
-      "Tritura ligeramente si prefieres textura más lisa.",
-      "Guarda en frascos limpios."
+      "Cocina todos los ingredientes 20 minutos a fuego medio.",
+      "Tritura si deseas textura más homogénea.",
+      "Cocina 5 minutos más si hace falta espesar."
     ],
-    tips: "Añade jengibre rallado para una versión más especiada."
+    tips: "Agrega jengibre rallado para un perfil más especiado."
   },
   {
     id: "gourmet-5",
@@ -671,22 +674,22 @@ export const recipes: Recipe[] = [
       "Pimientos rojos: 400 g",
       "Vinagre balsámico: 2 cucharadas",
       "Eritritol o miel: 2 cucharadas",
-      "Aceite de oliva: 1 cucharadita",
-      "Sal: al gusto"
+      "Agua: 50 ml",
+      "Sal: 1 pizca"
     ],
     instructions: [
-      "Asa los pimientos y pélalos.",
-      "Cocina con el resto de ingredientes 20 minutos.",
-      "Tritura hasta obtener consistencia deseada."
+      "Asa los pimientos, pélalos y licúalos.",
+      "Cocina el puré con vinagre, endulzante y sal durante 20 minutos.",
+      "Enfría y guarda en frascos."
     ],
-    tips: "Excelente para bruschetta, carnes o quesos."
+    tips: "Sirve sobre queso vegetal o como dip para galletas saladas."
   },
   {
     id: "gourmet-6",
     title: "Mermelada de higos y vino tinto",
     category: "gourmet",
     ingredients: [
-      "Higos frescos: 400 g",
+      "Higos frescos troceados: 400 g",
       "Vino tinto seco: 100 ml",
       "Eritritol o miel: 2 cucharadas",
       "Canela: ¼ cucharadita"
@@ -694,26 +697,26 @@ export const recipes: Recipe[] = [
     instructions: [
       "Cocina los higos con el vino y la canela 20 minutos.",
       "Añade el endulzante y mezcla.",
-      "Reduce hasta lograr consistencia espesa."
+      "Reduce 8–10 minutos más hasta textura espesa y brillante."
     ],
-    tips: "Ideal para acompañar postres o quesos curados."
+    tips: "Perfecta con quesos curados o como topping de cheesecake."
   },
   {
     id: "gourmet-7",
     title: "Mermelada de frutos del bosque y cacao",
     category: "gourmet",
     ingredients: [
-      "Frutos del bosque (moras, arándanos, frambuesas): 400 g",
+      "Frutos del bosque mixtos: 400 g",
       "Cacao sin azúcar: 2 cucharadas",
       "Eritritol: 2 cucharadas",
       "Jugo de limón: 1 cucharadita"
     ],
     instructions: [
       "Cocina las frutas con el limón 15 minutos.",
-      "Añade el cacao y el eritritol.",
-      "Mezcla y cocina 10 minutos más."
+      "Añade el cacao y el endulzante.",
+      "Cocina 5 minutos adicionales hasta espesar."
     ],
-    tips: "Perfecta para tartas, helados o como relleno de crepes."
+    tips: "Sírvela tibia sobre pancakes, waffles o helados."
   },
   {
     id: "gourmet-8",
@@ -726,11 +729,11 @@ export const recipes: Recipe[] = [
       "Aceite de coco: 1 cucharadita"
     ],
     instructions: [
-      "Mezcla todos los ingredientes en olla a baño maría.",
-      "Cocina 10 minutos revolviendo hasta espesar.",
-      "Deja enfriar y guarda refrigerado."
+      "Mezcla todos los ingredientes en recipiente a baño María.",
+      "Cocina 10 minutos removiendo siempre hasta espesar.",
+      "Deja enfriar antes de guardar."
     ],
-    tips: "Deliciosa para rellenar tartas o untar sobre pan de vainilla."
+    tips: "Ideal para rellenar tartas, cupcakes o crepas sin gluten."
   },
   {
     id: "gourmet-9",
@@ -738,35 +741,35 @@ export const recipes: Recipe[] = [
     category: "gourmet",
     ingredients: [
       "Piña fresca picada: 400 g",
-      "Cebolla: ½ unidad",
+      "Cebolla picada: ½ unidad",
       "Vinagre de manzana: 2 cucharadas",
       "Curry suave: ½ cucharadita",
       "Eritritol o miel: 1 cucharada",
       "Sal: 1 pizca"
     ],
     instructions: [
-      "Sofríe la cebolla con un poco de aceite.",
+      "Saltea la cebolla en aceite 2–3 minutos.",
       "Agrega la piña, el vinagre, el curry y el endulzante.",
-      "Cocina a fuego medio 20 minutos hasta que espese."
+      "Cocina 20 minutos hasta espesar."
     ],
-    tips: "Ideal para acompañar carnes blancas o tofu grillado."
+    tips: "Queda espectacular con tofu grillado, pollo o arroz basmati."
   },
   {
     id: "gourmet-10",
-    title: "Untable de manzana asada y canela (tipo \"apple butter\")",
+    title: "Untable de manzana asada y canela (Apple Butter)",
     category: "gourmet",
     ingredients: [
-      "Manzanas asadas: 500 g",
+      "Manzanas cortadas: 600 g",
       "Canela: 1 cucharadita",
-      "Jugo de limón: 1 cucharadita",
-      "Eritritol o miel: 2 cucharadas"
+      "Eritritol o miel: 2 cucharadas",
+      "Jugo de limón: 1 cucharadita"
     ],
     instructions: [
-      "Asa las manzanas hasta que estén tiernas.",
-      "Tritura con el resto de ingredientes.",
-      "Cocina a fuego muy bajo 30 minutos, removiendo.",
-      "Guarda caliente en frascos esterilizados."
+      "Asa las manzanas 25–30 minutos hasta que estén muy blandas.",
+      "Tritura hasta obtener un puré.",
+      "Cocina el puré con la canela y el endulzante 20 minutos a fuego muy bajo.",
+      "Mezcla hasta que quede espeso y brillante."
     ],
-    tips: "Perfecto para acompañar panes, galletas o postres de cuchara."
+    tips: "Si quieres textura ultra cremosa, licúa 5 segundos al final."
   }
 ];
